@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Cedarville+Cursive&family=Montserrat:wght@200;900&family=Nunito:wght@500&family=Pacifico&family=Poppins:wght@600;700;900&family=Quicksand:wght@300&family=Raleway:wght@900&family=Tangerine:wght@700&family=Ubuntu:wght@300&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.thulo{
+  background-color: #92A8E4;
+  width: 100%;
+  height: 600px;
+}
+.container{
+  border: 1px solid black;
+  height: 500px;
+  width: 55%;
+ display: flex;
+  margin: 0px auto;
+  position: relative;
+  top: 50px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.main{
+    /* border: 1px solid black; */
+    height: 500px;
+    width: 50%;
+   background-color: white;
+    border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.general{
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+    left: 10%;
+    top: 5%;
+    color: #5891E2;
+   
+}
+.gen{
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+  position: relative;
+  left: 10%;
+  top: 5%;
+  color: white;
+ 
+}
+
+.option select{
+  
+   margin-top: 30px;
+   position: relative;
+   left: 10%;
+   top: 5%;
+   border-right: none;
+   border-left: none;
+   border-top: none;
+    height: 35px;
+    
+    outline: none;
+    width: 80%;
+   
+}
+.one{
+  display: flex;
+  flex-direction: row;
+  border: none;
+ 
+}
+.two{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 10%;
+  gap: 0px;
+  
+}
+.twoo{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 10%;
+  gap: 0px;
+}
+
+#Username{
+  display: flex;
+  flex-direction: row;
+  outline: none;
+  margin-top: 20px;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid black;
+  border-top: none;
+  height: 20px;
+  width: 67%;
+  
+}
+.position select{
+  border: none;
+  outline: none;
+  /* background-color: red; */
+  height: 50px;
+  margin-top: 30px;
+  position: relative;
+  left: 10%;
+  top: 5%;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid black;
+   height: 35px;
+   width: 80.5%;
+   outline: none;
+  
+}
+#compy{
+  position: relative;
+  margin-top: 30px;
+  left: 10%;
+  top: 5%;
+  border: none;
+  width: 80%;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+.display{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  
+
+}
+#hello{
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+   height: 35px;
+   width: 36%;
+   margin-top: 27.5px;
+   position: relative;
+  left: 10%;
+  top: 5%;
+}
+.display select{
+  position: relative;
+  left: 10%;
+  top: 5%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+   height: 35px;
+   width: 36%;
+   margin-top: 30px;
+}
+
+
+.mainn{
+    /* border: 1px solid black; */
+    height: 500px;
+    width: 50%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+   background-color: #4935D4;
+   color: white;
+}
+#camp{
+  position: relative;
+  left: 10%;
+  top: 5%;
+  height: 35px;
+  background-color: #4935D4;
+  color: white;
+border-bottom: 1px solid white;
+border-top: none;
+border-right: none;
+border-left: none;
+   width: 80%;
+  margin-top: 30px;
+  /* border: none; */
+  outline: none;
+}
+#cam{
+  position: relative;
+  background-color: #4935D4;
+  left: 10%;
+  height: 35px;
+border-bottom: 1px solid white;
+border-top: none;
+border-right: none;
+border-left: none;
+   width: 80%;
+  margin-top: 3px;
+  outline: none;
+}
+.bhagwan{
+  display: flex;
+  gap: 30%;
+}
+#bue{
+  position: relative;
+  left: 10%;
+  height: 35px;
+border-bottom: 1px solid white;
+border-top: none;
+border-right: none;
+border-left: none;
+   width: 25%;
+  margin-top: 3%;
+  background-color: #4935D4;
+  outline: none;
+}
+
+.sel select {
+  background-color: #4935D4;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid white;
+  border-top: none;
+   height: 35px;
+   /* background-color: red; */
+   outline: none;
+   width: 121px;
+   margin-top: 10%;
+}
+.ca select{
+  margin-top: 30px;
+   position: relative;
+   left: 10%;
+   top: 5%;
+   background-color: #4935D4;
+   border-right: none;
+   border-left: none;
+   border-top: none;
+    height: 35px;
+    border-bottom: 1px solid white;
+    outline: none;
+    width: 80%;
+}
+.huhu{
+  display: flex;
+ position: relative;
+ top: 3%;
+ width: 80%;
+ gap: 10px;
+ margin: 0px auto;
+   background-color: red;
+   background-color: #4935D4;
+   justify-content: center;
+   
+
+}
+
+.register{
+  border: 1px solid white;
+  height: 45px;
+  width: 50%;
+ margin:0px auto ;
+ position: relative;
+ top: 5%;
+ left: 10%;
+border-radius: 15px;
+font-weight: 500px;
+   background-color: white;
+}
+#Us{
+ 
+  
+  display: flex;
+  flex-direction: row;
+  background-color: #4935D4;
+  outline: none;
+  margin-top: 20px;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid white;
+  border-top: none;
+  height: 20px;
+  width: 67%;
+}
+
+input::placeholder{
+  color: white;
+}
+ .two input::placeholder{
+  color: black;
+}
+.company input::placeholder{
+  color: black;
+}
+.display input::placeholder{
+  color: black;
+}
+
+.mainn select{
+  color: white;
+}
+
+.input ::placeholder{
+  color: white;
+}
